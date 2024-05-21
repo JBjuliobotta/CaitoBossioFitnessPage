@@ -1,0 +1,233 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.title-phrase {
+  text-align: center;
+  align-content: center;
+  margin-top: 100px;
+  margin-left: 16px;
+  text-transform: uppercase;
+  color: transparent;
+  font-weight: 400;
+  font-size: 50px !important;
+  display: inline-block;
+  overflow: hidden;
+  white-space: wrap;
+  -webkit-text-stroke: 2px rgb(82, 82, 82);
+}
+
+.description-phrase {
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.title-phrase:first-of-type {
+  animation: showup 7s infinite;
+}
+
+.title-phrase:last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
+  }
+}
+
+.card {
+  margin-top: 85px;
+  margin-bottom: 65px;
+  margin-left: 45px;
+  margin-right: 45px;
+  width: 400px;
+  height: 500px !important;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #93c1201f;
+  backdrop-filter: blur(5px);
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+.card:hover .card-body {
+  right: 0;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff !important;
+}
+
+.card-sub-title {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-info {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 40px 0;
+  font-weight: 400;
+  color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .title-phrase {
+    text-align: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 16px;
+    text-transform: uppercase;
+    color: transparent;
+    font-weight: 400;
+    font-size: 50px !important;
+    display: inline-block;
+    overflow: hidden;
+    white-space: wrap;
+    -webkit-text-stroke: 2px rgb(82, 82, 82);
+  }
+
+  .description-phrase {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .title-phrase {
+    text-align: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 16px;
+    text-transform: uppercase;
+    color: transparent;
+    font-weight: 400;
+    font-size: 40px !important;
+    display: inline-block;
+    overflow: hidden;
+    white-space: wrap;
+    -webkit-text-stroke: 2px rgb(82, 82, 82);
+  }
+
+  .description-phrase {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-phrase {
+    text-align: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 16px;
+    text-transform: uppercase;
+    color: transparent;
+    font-weight: 400;
+    font-size: 30px !important;
+    display: inline-block;
+    overflow: hidden;
+    white-space: wrap;
+    -webkit-text-stroke: 2px rgb(82, 82, 82);
+  }
+
+  .description-phrase {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 17px;
+  }
+}
