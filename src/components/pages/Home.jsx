@@ -1,5 +1,8 @@
 import React from "react";
 import "../css/home.css";
+import CardImage1 from "/src/assets/_MG_9566.jpg";
+import CardImage2 from "/src/assets/_MG_9297.jpg";
+import CardImage3 from "/src/assets/_MG_9493.jpg";
 
 const Home = () => {
   return (
@@ -20,9 +23,8 @@ const Home = () => {
       <div className="container">
         <div className="card">
           <img
-            src="src/assets/_MG_9566.jpg"
             className="card-image"
-            alt="Caito"
+            style={{ backgroundImage: `url(${CardImage1})` }}
           />
           <div className="card-body">
             <h3 className="card-title">Seguimiento Continuo</h3>
@@ -35,9 +37,8 @@ const Home = () => {
         </div>
         <div className="card">
           <img
-            src="src/assets/_MG_9297.jpg"
             className="card-image"
-            alt="Caito"
+            style={{ backgroundImage: `url(${CardImage2})` }}
           />
           <div className="card-body">
             <h3 className="card-title">Rutinas A Tu Medida</h3>
@@ -50,9 +51,8 @@ const Home = () => {
         </div>
         <div className="card">
           <img
-            src="src/assets/_MG_9493.jpg"
             className="card-image"
-            alt="Caito"
+            style={{ backgroundImage: `url(${CardImage3})` }}
           />
           <div className="card-body">
             <h3 className="card-title">Orientacion a Objetivos</h3>

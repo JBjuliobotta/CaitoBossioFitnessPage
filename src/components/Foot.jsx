@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LogoFoot from "/src/assets/CaitoBosio_logo-removebg-preview.png"
 
 const Foot = () => {
   const handleScrollToTop = () => {
@@ -15,7 +16,7 @@ const Foot = () => {
             onClick={handleScrollToTop}
           >
             <img
-              src="src/assets/CaitoBosio_logo-removebg-preview.png"
+              src={LogoFoot}
               alt="Caito Bosio"
               className="img-fluid"
               width="200"

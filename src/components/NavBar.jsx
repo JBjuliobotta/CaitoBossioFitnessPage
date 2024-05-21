@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
+import NavLogoCB from "/src/assets/CaitoBosio_logo2-removebg-preview.png"
 
 const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ const NavBar = () => {
         <Container>
         <NavLink to="/">
             <img
-              src="src/assets/CaitoBosio_logo2-removebg-preview.png"
+              src={NavLogoCB}
               width="45"
               height="45"
               className="d-inline-block align-top"
