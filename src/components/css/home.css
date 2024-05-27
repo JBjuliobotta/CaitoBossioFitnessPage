@@ -13,12 +13,14 @@
   margin-left: 16px;
   text-transform: uppercase;
   color: transparent;
-  font-weight: 400;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 50px !important;
   display: inline-block;
   overflow: hidden;
   white-space: wrap;
-  -webkit-text-stroke: 2px rgb(82, 82, 82);
+  -webkit-text-stroke: 5px rgb(82, 82, 82);
 }
 
 .description-phrase {
@@ -29,6 +31,8 @@
   flex-wrap: wrap;
   font-weight: bold;
   font-size: 25px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
 }
 
 .title-phrase:first-of-type {
@@ -134,15 +138,10 @@
 .card-title {
   text-transform: uppercase;
   font-size: 50px;
+  font-family: "Rowdies", sans-serif;
+  font-style: normal;
   font-weight: 500;
   color: #fff !important;
-}
-
-.card-sub-title {
-  text-transform: capitalize;
-  font-size: 14px;
-  font-weight: 300;
-  color: #fff;
 }
 
 .card-info {
@@ -151,6 +150,9 @@
   margin: 40px 0;
   font-weight: 400;
   color: #fff;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -231,5 +233,25 @@
     flex-wrap: wrap;
     font-weight: bold;
     font-size: 17px;
+  }
+
+  .card-title {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Rowdies", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #fff !important;
+  }
+
+  .card-info {
+    font-size: 13px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+    color: #fff;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
 }

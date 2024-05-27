@@ -17,12 +17,16 @@
     justify-content: center;
     align-content: center;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
 .asesories-description p{
     align-self: center;
+    text-align: center;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .carousel{
@@ -66,6 +70,9 @@
 .carouselInner .center h2{
     background-color: rgb(0, 0, 0, 0.6);
     border-radius: 5px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .carouselInner .right{
@@ -92,7 +99,7 @@
         justify-content: center;
         align-content: center;
         font-weight: bolder;
-        font-size: 15px;
+        font-size: 20px;
         text-transform: uppercase;
     }
 }
@@ -109,7 +116,7 @@
         justify-content: center;
         align-content: center;
         font-weight: bolder;
-        font-size: 13px;
+        font-size: 17px;
         text-transform: uppercase;
     }
 }
@@ -126,7 +133,34 @@
         justify-content: center;
         align-content: center;
         font-weight: bolder;
-        font-size: 11px;
+        font-size: 14px;
         text-transform: uppercase;
+    }
+
+    .carousel{
+        width: 75%;
+        height: 550px;
+        border-radius: 35px;
+        align-self: center;
+    }
+
+    .carouselInner .center{
+        flex: 90%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        text-align:center;
+        text-align-last: center;
+        color: whitesmoke;
+        
+    }
+
+    .carouselInner .center h2{
+        background-color: rgb(0, 0, 0, 0.6);
+        border-radius: 5px;
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
     }
 }

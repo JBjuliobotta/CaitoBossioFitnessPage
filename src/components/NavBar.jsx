@@ -20,7 +20,7 @@ const NavBar = () => {
           </NavLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mx-4">
+            <Nav className="mx-4 fw-bold">
               <NavLink to="/" className={"nav-link"}>Inicio</NavLink>
               <NavLink to="/aboutme" className={"nav-link"}>Quién Soy</NavLink>
               <NavLink to="/asesories" className={"nav-link"}>Asesorías</NavLink>
