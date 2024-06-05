@@ -30,8 +30,8 @@
 }
 
 .carousel{
-    width: 75%;
-    height: 800px;
+    width: 80%;
+    height: 650px;
     border-radius: 35px;
     align-self: center;
 }
@@ -39,7 +39,7 @@
 .carouselInner {
     height: 100%;
     width: 100%;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
     border-radius: 35px;
@@ -78,15 +78,43 @@
 .carouselInner .right{
     flex: 5%;
     height: 100%;
-
     display: grid;
     place-items: center;
     color: white;
     cursor: pointer;
 }
 
-.secondcartest{
-    margin-top: 150px;
+.form-title {
+    margin-top: 30px;
+    align-self: center;
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-container {
+    margin-top: 25px;
+    width: 750px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.button-container {
+    align-self: center;
+}
+
+.btn {
+    border-color:black !important;
+    border-width: 3px !important;
+    align-self: center !important;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -101,6 +129,10 @@
         font-weight: bolder;
         font-size: 20px;
         text-transform: uppercase;
+    }
+
+    .form-container {
+        width: 595px;
     }
 }
 
@@ -119,6 +151,10 @@
         font-size: 17px;
         text-transform: uppercase;
     }
+
+    .form-container {
+        width: 470px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -132,8 +168,9 @@
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
+        text-align: center;
         font-weight: bolder;
-        font-size: 14px;
+        font-size: 16px;
         text-transform: uppercase;
     }
 
@@ -162,5 +199,9 @@
         font-weight: 400;
         font-style: normal;
         font-size: 20px;
+    }
+
+    .form-container {
+        width: 350px;
     }
 }

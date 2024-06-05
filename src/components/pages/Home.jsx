@@ -1,8 +1,17 @@
 import React from "react";
 import "../css/home.css";
+import Accordion from "react-bootstrap/Accordion";
 import CardImage1 from "/src/assets/_MG_9566.jpg";
 import CardImage2 from "/src/assets/_MG_9297.jpg";
 import CardImage3 from "/src/assets/_MG_9493.jpg";
+import BJJ from "/src/assets/Bjjphoto.jpg";
+import Bodybuilding from "/src/assets/bodybuildingphoto.jpg";
+import Boxing from "/src/assets/boxingphoto.jpg";
+import Calistenics from "/src/assets/calistenicsphoto.jpg";
+import Rugby from "/src/assets/rugbyphoto.jpg";
+import Enduro from "/src/assets/endurophoto.jpg";
+import Ciclyst from "/src/assets/ciclystsphoto.jpg";
+import Weight from "/src/assets/olympicweightliftingphoto.jpg";
 
 const Home = () => {
   return (
@@ -13,10 +22,35 @@ const Home = () => {
           hacer"
         </p>
       </div>
+      <div className="sport-photos">
+        <div className="sport-photos-slider">
+          <img src={BJJ} alt="BJJ" />
+          <img src={Bodybuilding} alt="Bodybuilding" />
+          <img src={Boxing} alt="Boxing" />
+          <img src={Enduro} alt="Enduro" />
+          <img src={Rugby} alt="Rugby" />
+          <img src={Weight} alt="Weight" />
+          <img src={Calistenics} alt="Calistenics" />
+          <img src={Ciclyst} alt="Ciclyst" />
+        </div>
+        <div className="sport-photos-slider">
+          <img src={BJJ} alt="BJJ" />
+          <img src={Bodybuilding} alt="Bodybuilding" />
+          <img src={Boxing} alt="Boxing" />
+          <img src={Enduro} alt="Enduro" />
+          <img src={Rugby} alt="Rugby" />
+          <img src={Weight} alt="Weight" />
+          <img src={Calistenics} alt="Calistenics" />
+          <img src={Ciclyst} alt="Ciclyst" />
+        </div>
+      </div>
       <div className="description-phrase">
         <p>La actividad física es un pilar fundamental de la vida.</p>
         <p>No sólo a nivel físico, sino también mental y emocional.</p>
-        <p>Cada rutina y cada ejercicio, están pensados, no sólo para mejorar tu rendimiento deportivo,</p>
+        <p>
+          Cada rutina y cada ejercicio, están pensados, no sólo para mejorar tu
+          rendimiento deportivo,
+        </p>
         <p>sino también, para mejorar tu calidad de vida.</p>
         <p>El cambio para alcanzar tu mejor versión empieza HOY!</p>
       </div>

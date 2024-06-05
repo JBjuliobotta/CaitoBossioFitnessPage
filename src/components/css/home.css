@@ -95,6 +95,31 @@
   }
 }
 
+@keyframes slider {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+.sport-photos {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space:nowrap;
+}
+
+.sport-photos-slider {
+  display: inline-block;
+  animation: 25s slider infinite linear;
+}
+
+.sport-photos-slider img {
+  height: 250px;
+}
+
+
 .card {
   margin-top: 85px;
   margin-bottom: 65px;
@@ -180,6 +205,10 @@
     font-weight: bold;
     font-size: 25px;
   }
+
+      .logos-slider img {
+        height: 150px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -207,6 +236,10 @@
     font-weight: bold;
     font-size: 20px;
   }
+
+      .logos-slider img {
+        height: 100px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -254,4 +287,8 @@
     font-weight: 700;
     font-style: normal;
   }
+
+    .logos-slider img {
+        height: 100px;
+    }
 }
