@@ -75,8 +75,8 @@ const Asesories = () => {
               className="form-control"
               id="name&lastnameinput"
               placeholder="José Gómez"
-              minLength={4}
-              maxLength={30}
+              minLength={3}
+              maxLength={50}
               required
             />
           </div>
@@ -135,7 +135,7 @@ const Asesories = () => {
               className="form-control"
               id="weightinput"
               placeholder="78 kg"
-              minLength={4}
+              minLength={2}
               maxLength={30}
               required
             />
@@ -150,7 +150,7 @@ const Asesories = () => {
               className="form-control"
               id="heightinput"
               placeholder="1,77 m"
-              minLength={4}
+              minLength={2}
               maxLength={30}
               required
             />
@@ -195,7 +195,7 @@ const Asesories = () => {
               name="Objetivos y seguimientos"
               id="commentsectioninput"
               rows="4"
-              minLength={4}
+              minLength={2}
               maxLength={300}
               required
             ></textarea>
