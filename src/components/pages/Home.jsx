@@ -16,11 +16,10 @@ import Weight from "/src/assets/olympicweightliftingphoto.jpg";
 const Home = () => {
   return (
     <>
-      <div className="title-phrase">
-        <p>
-          "El ejercicio es una celebración de lo que tu cuerpo es capaz de
-          hacer"
-        </p>
+      <div className="container text-center mt-5 pt-5">
+        <h1>
+        Logro que profesionales +30 años obtengan un cuerpo atlético entrenando efectivamente en 90 días
+        </h1>
       </div>
       <div className="sport-photos">
         <div className="sport-photos-slider">

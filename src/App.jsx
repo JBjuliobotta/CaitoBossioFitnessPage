@@ -14,7 +14,7 @@ function App() {
         <NavBar />
       </header>
 
-      <main>
+      <main className="bg-black bg-gradient text-light">
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/aboutme" element={<AboutMe />}/>

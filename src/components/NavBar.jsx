@@ -7,7 +7,7 @@ import NavLogoCB from "/src/assets/CaitoBosio_logo2-removebg-preview.png"
 const NavBar = () => {
   return (
     <>
-      <Navbar expand="lg" data-bs-theme="light" className="bg-body-tertiary fixed-top">
+      <Navbar expand="lg" data-bs-theme="dark" className="bg-black bg-gradient fixed-top">
         <Container>
         <NavLink to="/">
             <img
