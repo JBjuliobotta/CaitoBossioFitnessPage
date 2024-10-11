@@ -16,10 +16,14 @@ import Weight from "/src/assets/olympicweightliftingphoto.jpg";
 const Home = () => {
   return (
     <>
-      <div className="container text-center mt-5 pt-5">
+      <div className="container text-center mt-5 pt-5">        
+          <h6 className="pb-3" style={{color:'rgb(160, 160, 160)'}}><b style={{color: "#94c120"}}>Caito Bosio</b> | Personal Trainer</h6>        
         <h1>
         Logro que profesionales +30 años obtengan un cuerpo atlético entrenando efectivamente en 90 días
         </h1>
+        <h6 className="mt-3" style={{color: 'rgb(160, 160, 160)'}}>
+          (Sin necesidad de tener experiencia previa en entrenamientos ni de eliminar ningún tipo de alimento de tu dieta)          
+        </h6>
       </div>
       <div className="sport-photos">
         <div className="sport-photos-slider">
