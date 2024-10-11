@@ -17,7 +17,7 @@ body {
   margin-left: 16px;
   text-transform: uppercase;
   color: transparent;
-  font-family: "Rowdies", sans-serif;
+   font-family: "Oswald", Helvetica, sans-serif !important;
   font-weight: 700;
   font-style: normal;
   font-size: 50px !important;
@@ -35,7 +35,7 @@ body {
   flex-wrap: wrap;
   font-weight: bold;
   font-size: 25px;
-  font-family: "PT Sans Narrow", sans-serif;
+      font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -167,7 +167,7 @@ body {
 .card-title {
   text-transform: uppercase;
   font-size: 50px;
-  font-family: "Rowdies", sans-serif;
+   font-family: "Oswald", Helvetica, sans-serif !important;
   font-style: normal;
   font-weight: 500;
   color: #fff !important;
@@ -179,7 +179,7 @@ body {
   margin: 40px 0;
   font-weight: 400;
   color: #fff;
-  font-family: "PT Sans Narrow", sans-serif;
+      font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -275,7 +275,7 @@ body {
   .card-title {
     text-transform: uppercase;
     font-size: 25px;
-    font-family: "Rowdies", sans-serif;
+     font-family: "Oswald", Helvetica, sans-serif !important;
     font-style: normal;
     font-weight: 500;
     color: #fff !important;
@@ -287,7 +287,7 @@ body {
     margin: 40px 0;
     font-weight: 400;
     color: #fff;
-    font-family: "PT Sans Narrow", sans-serif;
+        font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
