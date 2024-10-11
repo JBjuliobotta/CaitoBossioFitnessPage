@@ -7,15 +7,15 @@ body{
     width: 100%;
     height: 100%;
     font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: uppercase;
+    /* font-weight: 700; */
+    font-style: normal;    
     /* background: linear-gradient( to right top,white 250px, #94c120); */
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Oswald", Helvetica, sans-serif !important;
+h1, h2, h3  {
+  font-family: "Oswald", Helvetica, sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
+  text-transform: uppercase;
 }
