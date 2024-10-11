@@ -1,23 +1,25 @@
-import React from "react";
+// import React from "react";
 import "../css/home.css";
-import Accordion from "react-bootstrap/Accordion";
+// import Accordion from "react-bootstrap/Accordion";
 import CardImage1 from "/src/assets/_MG_9566.jpg";
 import CardImage2 from "/src/assets/_MG_9297.jpg";
 import CardImage3 from "/src/assets/_MG_9493.jpg";
-import BJJ from "/src/assets/Bjjphoto.jpg";
-import Bodybuilding from "/src/assets/bodybuildingphoto.jpg";
-import Boxing from "/src/assets/boxingphoto.jpg";
-import Calistenics from "/src/assets/calistenicsphoto.jpg";
-import Rugby from "/src/assets/rugbyphoto.jpg";
-import Enduro from "/src/assets/endurophoto.jpg";
-import Ciclyst from "/src/assets/ciclystsphoto.jpg";
-import Weight from "/src/assets/olympicweightliftingphoto.jpg";
+// import BJJ from "/src/assets/Bjjphoto.jpg";
+// import Bodybuilding from "/src/assets/bodybuildingphoto.jpg";
+// import Boxing from "/src/assets/boxingphoto.jpg";
+// import Calistenics from "/src/assets/calistenicsphoto.jpg";
+// import Rugby from "/src/assets/rugbyphoto.jpg";
+// import Enduro from "/src/assets/endurophoto.jpg";
+// import Ciclyst from "/src/assets/ciclystsphoto.jpg";
+// import Weight from "/src/assets/olympicweightliftingphoto.jpg";
 
 const Home = () => {
   return (
     <>
+    {/* TITULO */}
       <div className="container text-center mt-5 pt-5">        
-          <h6 className="pb-3" style={{color:'rgb(160, 160, 160)'}}><b style={{color: "#94c120"}}>Caito Bosio</b> | Personal Trainer</h6>        
+        <h6 className="pb-3" style={{color:'rgb(160, 160, 160)'}}>
+          <b style={{color: "#94c120"}}>Caito Bosio</b> | Personal Trainer</h6>        
         <h1>
         Logro que profesionales +30 años obtengan un cuerpo atlético entrenando efectivamente en 90 días
         </h1>
@@ -25,7 +27,9 @@ const Home = () => {
           (Sin necesidad de tener experiencia previa en entrenamientos ni de eliminar ningún tipo de alimento de tu dieta)          
         </h6>
       </div>
-      <div className="sport-photos">
+
+      {/* CAROUSEL */}
+      {/* <div className="sport-photos">
         <div className="sport-photos-slider">
           <img src={BJJ} alt="BJJ" />
           <img src={Bodybuilding} alt="Bodybuilding" />
@@ -46,7 +50,15 @@ const Home = () => {
           <img src={Calistenics} alt="Calistenics" />
           <img src={Ciclyst} alt="Ciclyst" />
         </div>
+      </div> */}
+
+      {/* VIDEO VSL */}
+      <div className="container text-center my-5">
+      <iframe width="960" height="540" src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
       </div>
+
+      {/* CARDS */}
       <div className="description-phrase">
         <p>La actividad física es un pilar fundamental de la vida.</p>
         <p>No sólo a nivel físico, sino también mental y emocional.</p>
