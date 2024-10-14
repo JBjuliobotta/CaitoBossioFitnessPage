@@ -9,7 +9,7 @@ body{
     font-family: "Open Sans", Helvetica, sans-serif;
     /* font-weight: 700; */
     font-style: normal;    
-    /* background: linear-gradient( to right top,white 250px, #94c120); */
+    background: linear-gradient( to right top,white 250px, #94c120)!important;
 }
 
 h1, h2, h3  {

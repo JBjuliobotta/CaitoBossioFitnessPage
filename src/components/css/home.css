@@ -296,3 +296,30 @@ body {
         height: 100px;
     }
 }
+
+/* Boton de Whatsapp */
+body {
+  height: 1500px; /* Solo para simular una página larga */
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366!important;
+  color: white!important;
+  font-size: 1.92rem!important;
+  padding: 10px 20px;
+  border-radius: 100%!important;
+  text-decoration: none;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 65px;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128c7e!important;
+}

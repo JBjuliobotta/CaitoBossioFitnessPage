@@ -54,7 +54,7 @@ const Home = () => {
 
       {/* VIDEO VSL */}
       <div className="container text-center my-5">
-      <iframe width="960" height="540" src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="960" height="540" src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={{borderRadius: "15px"}}></iframe>
 
       </div>
 
@@ -113,6 +113,11 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* Boton de Whatsapp */}
+      <a href="https://wa.me/1234567890" target="_blank" className=" btn-success whatsapp-btn">
+        <i className="bi bi-whatsapp"></i>
+    </a>
     </>
   );
 };

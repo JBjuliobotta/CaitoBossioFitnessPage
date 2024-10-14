@@ -14,7 +14,7 @@ function App() {
         <NavBar />
       </header>
 
-      <main className="bg-black bg-gradient text-light">
+      <main className="bg-black text-light">
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/aboutme" element={<AboutMe />}/>
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </main>
 
-      <footer>
+      <footer style={{zIndex: "-1"}}>
         <Foot />
       </footer>
     </BrowserRouter>
