@@ -16,15 +16,18 @@ import CardImage3 from "/src/assets/_MG_9493.jpg";
 const Home = () => {
   return (
     <>
-    {/* TITULO */}
-      <div className="container text-center mt-5 pt-5">        
-        <h6 className="pb-3" style={{color:'rgb(160, 160, 160)'}}>
-          <b style={{color: "#94c120"}}>Caito Bosio</b> | Personal Trainer</h6>        
+      {/* TITULO */}
+      <div className="container text-center mt-5 pt-5">
+        <h6 className="pb-3" style={{ color: "rgb(160, 160, 160)" }}>
+          <b style={{ color: "#94c120" }}>Caito Bosio</b> | Personal Trainer
+        </h6>
         <h1>
-        Logro que profesionales +30 años obtengan un cuerpo atlético entrenando efectivamente en 90 días
+          Logro que profesionales +30 años obtengan un cuerpo atlético
+          entrenando efectivamente en 90 días
         </h1>
-        <h6 className="mt-3" style={{color: 'rgb(160, 160, 160)'}}>
-          (Sin necesidad de tener experiencia previa en entrenamientos ni de eliminar ningún tipo de alimento de tu dieta)          
+        <h6 className="mt-3" style={{ color: "rgb(160, 160, 160)" }}>
+          (Sin necesidad de tener experiencia previa en entrenamientos ni de
+          eliminar ningún tipo de alimento de tu dieta)
         </h6>
       </div>
 
@@ -54,9 +57,29 @@ const Home = () => {
 
       {/* VIDEO VSL */}
       <div className="container text-center my-5">
-      <iframe width="960" height="540" src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={{borderRadius: "15px"}}></iframe>
-
+        <iframe
+          width="960"
+          height="540"
+          src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style={{ borderRadius: "15px" }}
+        ></iframe>
       </div>
+
+      {/* BOTON DE CONTACTO */}
+      <div className="container text-center mb-5">
+        <button
+          href="https://wa.me/5493816755376"
+          target="_blank"
+          type="button"
+          className="btn btn-primary btn-lg contact-btn"
+        >
+          <i className="bi bi-whatsapp"> </i>CONTACTAME AHORA
+        </button>
+      </div>
+
+      <hr />
 
       {/* CARDS */}
       <div className="description-phrase">
@@ -115,9 +138,13 @@ const Home = () => {
       </div>
 
       {/* Boton de Whatsapp */}
-      <a href="https://wa.me/1234567890" target="_blank" className=" btn-success whatsapp-btn">
+      <a
+        href="https://wa.me/5493816755376"
+        target="_blank"
+        className="btn-success whatsapp-btn"
+      >
         <i className="bi bi-whatsapp"></i>
-    </a>
+      </a>
     </>
   );
 };

@@ -323,3 +323,12 @@ body {
 .whatsapp-btn:hover {
   background-color: #128c7e!important;
 }
+
+.contact-btn{
+  background-color: #94c120 !important;
+  font-family: "Oswald", Helvetica, sans-serif !important;;   
+}
+
+.contact-btn:hover {
+  background-color: #b3e252 !important;
+}
