@@ -63,7 +63,7 @@ const Home = () => {
           src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          className="rounded"
+          className="rounded border border-light"
         ></iframe>
       </div>
 
@@ -80,28 +80,34 @@ const Home = () => {
       </div>
 
       {/* METODO */}
-      <div className="bg-black bg-gradient pt-5">
-        <div className="text-center ">
-          <h1 className="mb-3">
+      <div className="">
+        <div className="text-center bg-black bg-gradient pt-5">
+          <h1 className="">
             CONOCE EL MÉTODO{" "}
             <b style={{ color: "#94c120" }}>"FITNESS DEVELOP"</b>
           </h1>
-          <div className="mb-5 mx-3">
-            <br />
-            <h3 className="mb-0 pb-0">
+          {/* SEPARADOR */}
+          <div className="container">
+            <div className="custom-hr text-center my-5"></div>
+          </div>
+          <div className="mx-3">
+            <h4 style={{ color: "rgb(160, 160, 160)" }} className="mb-0 pb-0">
               Llamado de esta manera porque en él vas a explorar todo tu
               potencial fitness,{" "}
-            </h3>
-            <h3 className="mb-0 pb-0">
+            </h4>
+            <h4 style={{ color: "rgb(160, 160, 160)" }} className="mb-0 pb-0">
               el desarrollo integro de tu aptitud ante tal situación,
-            </h3>
-            <h3 className="mb-0 pb-0">
+            </h4>
+            <h4 style={{ color: "rgb(160, 160, 160)" }} className="mb-0 pb-0">
               la misma que no te está permitiendo cumplir ese sueño, esa meta
               física.
-            </h3>          
+            </h4>
           </div>
         </div>
-
+        {/* SEPARADOR */}
+        <div className="container">
+          <div className="custom-hr text-center my-5"></div>
+        </div>
         <div className="container">
           {/* 1. */}
           <div className="row align-items-center ">
@@ -110,19 +116,20 @@ const Home = () => {
                 src="/src/assets/_MG_9566.jpg"
                 alt=""
                 height={540}
-                className="rounded mb-5"
+                className="rounded mb-5 border border-light"
               />
             </div>
             <div className="col-md-6">
-              <h1 className="px-5" style={{ color: "#94c120" }}>
+              <h2 className="px-5" style={{ color: "#94c120" }}>
                 1. ANÁLISIS
-              </h1>
-              <h3 className="px-5">
+              </h2>
+              <h4 className="px-5">
                 Cada persona es diferente, por eso cada entrenamiento va a tener
                 estímulos diferentes de acuerdo a tu nivel de experiencia,
                 objetivos y disponibilidad.
-              </h3>
+              </h4>
             </div>
+            <hr />
           </div>
           {/* 2 */}
           <div className="row align-items-center">
@@ -131,46 +138,49 @@ const Home = () => {
                 src="/src/assets/_MG_9297.jpg"
                 alt=""
                 height={540}
-                className="rounded mb-5"
+                className="rounded my-5 border border-light"
               />
             </div>
             <div className="col-md-6 order-md-1">
-              <h1 className="px-5" style={{ color: "#94c120" }}>
+              <h2 className="px-5" style={{ color: "#94c120" }}>
                 2. EJECUCIÓN
-              </h1>
-              <h3 className="px-5">
+              </h2>
+              <h4 className="px-5">
                 Una vez tengamos definida tu idea, conozcamos tu punto de
                 partida ahí empezamos a darle forma a tu visión, creamos tu plan
                 y lo ponemos en marcha.
-              </h3>
+              </h4>
             </div>
           </div>
           {/* 3 */}
           <div className="row align-items-center ">
+            <hr />
             <div className="col-md-6 text-center">
               <img
-                src="/src/assets/_MG_9566.jpg"
+                src="/src/assets/_MG_9493.jpg"
                 alt=""
                 height={540}
-                className="rounded mb-5"
+                className="rounded my-5 border border-light"
               />
             </div>
             <div className="col-md-6">
-              <h1 className="px-5" style={{ color: "#94c120" }}>
+              <h2 className="px-5" style={{ color: "#94c120" }}>
                 3. AJUSTE
-              </h1>
-              <h3 className="px-5">
+              </h2>
+              <h4 className="px-5">
                 Realizamos chequeos para ver como te va con el plan y lo
                 ajustamos aún más a tus requerimientos, siempre trabajando con
                 objetivos semanales y diarios
-              </h3>
+              </h4>
             </div>
           </div>
         </div>
       </div>
-
       <hr />
       {/* BOTON DE CONTACTO */}
+      <div className="text-center">
+        <h1 className="mt-5">EMPEZÁ AHORA MISMO:</h1>
+      </div>
       <div className="container text-center my-5">
         <button
           href="https://wa.me/5493816755376"
@@ -184,7 +194,7 @@ const Home = () => {
       <hr />
 
       {/* CARDS */}
-      <div className="description-phrase">
+      {/* <div className="description-phrase">
         <p>La actividad física es un pilar fundamental de la vida.</p>
         <p>No sólo a nivel físico, sino también mental y emocional.</p>
         <p>
@@ -237,7 +247,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Boton de Whatsapp */}
       <a

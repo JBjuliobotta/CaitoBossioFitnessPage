@@ -336,3 +336,11 @@ body {
 .img-method {
   border-radius: 25%;
 }
+
+.custom-hr {
+  width: 50%;          /* Ocupa todo el ancho del contenedor */
+  height: 2px;          /* Define el grosor de la línea */
+  background-color: #ccc; /* Define el color gris (#ccc es un gris claro) */
+  border: none;         /* Elimina cualquier borde */
+  margin: 20px 0;       /* Espacio superior e inferior alrededor del separador */
+}
