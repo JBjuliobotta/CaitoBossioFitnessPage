@@ -1,4 +1,3 @@
-// import React from "react";
 import { Link } from "react-router-dom";
 import LogoFoot from "/src/assets/CaitoBosio_logo-removebg-preview.png"
 

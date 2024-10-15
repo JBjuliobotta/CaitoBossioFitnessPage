@@ -17,7 +17,7 @@ const Asesories = () => {
 
   return (
     <>
-      <div className="container text-center mb-5">
+      <div className=" text-center mb-5 pt-5 bg-black bg-gradient">
         <h1>ASESORÍAS PERSONALIZADAS</h1>
       </div>
 
@@ -61,14 +61,10 @@ const Asesories = () => {
             </div>
           </div>
         </div>
-
-        {/* DESCRIPCION ASESORIAS */}
-
         <div className="container">
           <div className="container">
             <div className="custom-hr text-center my-5"></div>
           </div>
-
           <div className="text-center" style={{ color: "rgb(160, 160, 160)" }}>
             <h4 className="py-0 my-0">
               Las asesorías que doy son todas personalizadas, enfocándose en los
@@ -88,12 +84,10 @@ const Asesories = () => {
               a personas que quieren mejorar su salud y calidad de vida.
             </h4>
           </div>
-
           <div className="container">
             <div className="custom-hr text-center my-5"></div>
           </div>
         </div>
-
         <div className="form-title">
           <h2 className="mx-3">
             ¿Querés una{" "}
