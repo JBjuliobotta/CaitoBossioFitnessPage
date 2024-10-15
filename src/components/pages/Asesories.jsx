@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "../css/asesories.css";
 import { carouselImages } from "../../helpers/carouseldata";
+import ContactImage from "/src/assets/_MG_9509.jpg";
 
 const Asesories = () => {
   const [currentImg, setCurrentImg] = useState(0);
@@ -100,7 +101,7 @@ const Asesories = () => {
           </h2>
           <div className="container text-center my-5">
             <img
-              src="/src/assets/_MG_9509.jpg"
+              src={ContactImage}
               alt=""
               height={540}
               className="rounded"

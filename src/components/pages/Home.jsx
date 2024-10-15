@@ -4,9 +4,9 @@ import AboutMe from "./AboutMe";
 import Asesories from "./Asesories";
 // import ContactMe from "./ContactMe"
 // import Accordion from "react-bootstrap/Accordion";
-// import CardImage1 from "/src/assets/_MG_9566.jpg";
-// import CardImage2 from "/src/assets/_MG_9297.jpg";
-// import CardImage3 from "/src/assets/_MG_9493.jpg";
+import CardImage1 from "/src/assets/_MG_9566.jpg";
+import CardImage2 from "/src/assets/_MG_9297.jpg";
+import CardImage3 from "/src/assets/_MG_9493.jpg";
 // import BJJ from "/src/assets/Bjjphoto.jpg";
 // import Bodybuilding from "/src/assets/bodybuildingphoto.jpg";
 // import Boxing from "/src/assets/boxingphoto.jpg";
@@ -115,7 +115,7 @@ const Home = () => {
           <div className="row align-items-center ">
             <div className="col-md-6 text-center">
               <img
-                src="/src/assets/_MG_9566.jpg"
+                src={CardImage1}
                 alt=""
                 height={540}
                 className="rounded mb-5"
@@ -137,7 +137,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div className="col-md-6 text-center order-md-2">
               <img
-                src="/src/assets/_MG_9297.jpg"
+                src={CardImage2}
                 alt=""
                 height={540}
                 className="rounded my-5"
@@ -159,7 +159,7 @@ const Home = () => {
             <hr />
             <div className="col-md-6 text-center">
               <img
-                src="/src/assets/_MG_9493.jpg"
+                src={CardImage3}
                 alt=""
                 height={540}
                 className="rounded my-5"
