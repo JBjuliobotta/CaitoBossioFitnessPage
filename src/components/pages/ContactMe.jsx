@@ -2,6 +2,7 @@
 import "../css/contact.css";
 import ContactImage from "/src/assets/_MG_9509.jpg";
 import { Link } from "react-router-dom";
+
 const ContactMe = () => {
   return (
     <>
