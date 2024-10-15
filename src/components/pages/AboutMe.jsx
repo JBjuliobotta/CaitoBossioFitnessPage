@@ -61,7 +61,7 @@ const AboutMe = () => {
           href="https://wa.me/5493816755376"
           target="_blank"
           type="button"
-          className="btn btn-primary btn-lg contact-btn"
+          className="btn text-light btn-lg contact-btn"
         >
           <i className="bi bi-whatsapp"> </i>QUIERO UNIRME
         </button>
@@ -90,7 +90,6 @@ const AboutMe = () => {
       <div className="container">
         <div className="custom-hr text-center my-5"></div>
       </div>
-      
     </>
   );
 };

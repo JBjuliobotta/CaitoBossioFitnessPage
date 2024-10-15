@@ -62,7 +62,7 @@ const Home = () => {
           height="540"
           src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          // allowfullscreen
           className="rounded"
         ></iframe>
       </div>
@@ -72,7 +72,7 @@ const Home = () => {
           href="https://wa.me/5493816755376"
           target="_blank"
           type="button"
-          className="btn btn-primary btn-lg contact-btn"
+          className="btn text-light btn-lg contact-btn"
         >
           <i className="bi bi-whatsapp"> </i>SOLICITAR ASESORÍA
         </button>
@@ -190,7 +190,7 @@ const Home = () => {
             href="https://wa.me/5493816755376"
             target="_blank"
             type="button"
-            className="btn btn-primary btn-lg contact-btn"
+            className="btn text-light btn-lg contact-btn"
           >
             <i className="bi bi-whatsapp"> </i>CONTACTAME AHORA
           </button>
