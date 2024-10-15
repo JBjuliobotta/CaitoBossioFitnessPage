@@ -312,7 +312,7 @@ body {
   padding: 10px 20px;
   border-radius: 100%!important;
   text-decoration: none;
-  z-index: 1000;
+  z-index: 1000 !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -331,4 +331,8 @@ body {
 
 .contact-btn:hover {
   background-color: #b3e252 !important;
+}
+
+.img-method {
+  border-radius: 25%;
 }

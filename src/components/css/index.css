@@ -9,10 +9,13 @@ body{
     font-family: "Open Sans", Helvetica, sans-serif;
     /* font-weight: 700; */
     font-style: normal;    
-    background: linear-gradient( to right top,white 250px, #94c120)!important;
+    /* background: linear-gradient( to right top,white 250px, #94c120); */
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
 }
 
-h1, h2, h3  {
+h1, h2 {
   font-family: "Oswald", Helvetica, sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */

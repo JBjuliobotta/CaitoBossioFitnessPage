@@ -17,13 +17,13 @@ function App() {
       <main className="bg-black text-light">
         <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/aboutme" element={<AboutMe />}/>
-          <Route path="/asesories" element={<Asesories />}/>
-          <Route path="/contactme" element={<ContactMe />}/>
+          {/* <Route path="/aboutme" element={<AboutMe />}/> */}
+          {/* <Route path="/asesories" element={<Asesories />}/> */}
+          {/* <Route path="/contactme" element={<ContactMe />}/> */}
         </Routes>
       </main>
 
-      <footer style={{zIndex: "-1"}}>
+      <footer>
         <Foot />
       </footer>
     </BrowserRouter>

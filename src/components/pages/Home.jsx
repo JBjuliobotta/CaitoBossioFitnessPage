@@ -63,7 +63,7 @@ const Home = () => {
           src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          style={{ borderRadius: "15px" }}
+          className="rounded"
         ></iframe>
       </div>
 
@@ -79,7 +79,48 @@ const Home = () => {
         </button>
       </div>
 
-      <hr />
+      {/* <hr className="my-5" /> */}
+
+      {/* METODO */}
+
+      <div className="bg-black bg-gradient pt-5">
+        <div className="text-center ">
+          <h1 className="mb-3">
+            CONOCE EL MÉTODO{" "}
+            <b style={{ color: "#94c120" }}>"FITNESS DEVELOP"</b>
+          </h1>
+          <div className="mb-5">
+            <br />
+            <h3 className="mb-0 pb-0">
+              Llamado de esta manera porque en él vas a explorar todo tu
+              potencial fitness,{" "}
+            </h3>
+            <h3 className="mb-0 pb-0">
+              el desarrollo integro de tu aptitud ante tal situación,
+            </h3>
+            <h3 className="mb-0 pb-0">
+              la misma que no te está permitiendo cumplir ese sueño, esa meta
+              física.
+            </h3>
+          </div>
+        </div>
+
+        <div className="row align-items-center ">
+          <div className="col-md-6 text-center">
+            <img src="/src/assets/_MG_9566.jpg" alt="" height={540} className="rounded"/>
+          </div>
+          <div className="col-md-6">
+            <h1 className="px-5" style={{ color: "#94c120" }}>
+              1. ANÁLISIS
+            </h1>
+            <h3 className="px-5">
+              Cada persona es diferente, por eso cada entrenamiento va a tener
+              estímulos diferentes de acuerdo a tu nivel de experiencia,
+              objetivos y disponibilidad.
+            </h3>
+          </div>
+        </div>
+      </div>
 
       {/* CARDS */}
       <div className="description-phrase">
