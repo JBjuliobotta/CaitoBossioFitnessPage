@@ -11,7 +11,7 @@ const AboutMe = () => {
         <div className="container">
           <div className="custom-hr text-center my-5"></div>
         </div>
-        <h1 className="my-5">ACERCA DE MÍ</h1>
+        <h1 className="my-5">CONOCÉ A TU ENTRENADOR</h1>
         <div
           className="aboutme-bg"
           style={{ backgroundImage: `url(${BackgroundAbout1})` }}

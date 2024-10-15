@@ -338,9 +338,9 @@ body {
 }
 
 .custom-hr {
-  width: 50%;          /* Ocupa todo el ancho del contenedor */
-  height: 2px;          /* Define el grosor de la línea */
-  background-color: #ccc; /* Define el color gris (#ccc es un gris claro) */
-  border: none;         /* Elimina cualquier borde */
-  margin: 20px 0;       /* Espacio superior e inferior alrededor del separador */
+  width: 50%;         
+  height: 2px;          
+  background-color: #ccc; 
+  border: none;         
+  margin: 20px 0;    
 }

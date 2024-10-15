@@ -1,7 +1,7 @@
 // import React from "react";
 import "../css/home.css";
 import AboutMe from "./AboutMe";
-
+import Asesories from "./Asesories";
 // import Accordion from "react-bootstrap/Accordion";
 // import CardImage1 from "/src/assets/_MG_9566.jpg";
 // import CardImage2 from "/src/assets/_MG_9297.jpg";
@@ -199,6 +199,9 @@ const Home = () => {
       
       <div className="">
         <AboutMe />
+      </div>
+      <div>
+        <Asesories/>
       </div>
       {/* CARDS */}
       {/* <div className="description-phrase">
