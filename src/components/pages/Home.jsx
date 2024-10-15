@@ -46,10 +46,7 @@ const Home = () => {
           <h1 className="mb-4">
             CONOCE EL MÉTODO{" "}
             <b style={{ color: "#94c120" }}>&quot;FITNESS DEVELOP&quot;</b>
-          </h1>
-          <div className="container">
-            <div className="custom-hr text-center my-5"></div>
-          </div>
+          </h1>      
           <div className="mx-3">
             <h4 style={{ color: "rgb(160, 160, 160)" }} className="mb-0 pb-0">
               Llamado de esta manera porque en él vas a explorar todo tu
