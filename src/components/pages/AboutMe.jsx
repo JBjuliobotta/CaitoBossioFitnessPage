@@ -57,14 +57,14 @@ const AboutMe = () => {
         <h2>EMPEZÁ TU TRANSFORMACIÓN AHORA:</h2>
       </div>
       <div className="container text-center">
-        <button
+        <a
           href="https://wa.me/5493816755376"
           target="_blank"
           type="button"
           className="btn text-light btn-lg contact-btn"
         >
           <i className="bi bi-whatsapp"> </i>QUIERO UNIRME
-        </button>
+        </a>
       </div>
       <div className="container">
         <div className="custom-hr text-center my-5"></div>

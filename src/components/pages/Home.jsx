@@ -2,11 +2,11 @@
 import "../css/home.css";
 import AboutMe from "./AboutMe";
 import Asesories from "./Asesories";
-import ContactMe from "./ContactMe"
+// import ContactMe from "./ContactMe"
 // import Accordion from "react-bootstrap/Accordion";
-// import CardImage1 from "/src/assets/_MG_9566.jpg";
-// import CardImage2 from "/src/assets/_MG_9297.jpg";
-// import CardImage3 from "/src/assets/_MG_9493.jpg";
+import CardImage1 from "/src/assets/_MG_9566.jpg";
+import CardImage2 from "/src/assets/_MG_9297.jpg";
+import CardImage3 from "/src/assets/_MG_9493.jpg";
 // import BJJ from "/src/assets/Bjjphoto.jpg";
 // import Bodybuilding from "/src/assets/bodybuildingphoto.jpg";
 // import Boxing from "/src/assets/boxingphoto.jpg";
@@ -63,20 +63,20 @@ const Home = () => {
           height="540"
           src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          // allowfullscreen
+          allowfullscreen
           className="rounded"
         ></iframe>
       </div>
       {/* BOTON DE CONTACTO */}
       <div className="container text-center mb-5">
-        <button
+        <a
           href="https://wa.me/5493816755376"
           target="_blank"
           type="button"
           className="btn text-light btn-lg contact-btn"
         >
           <i className="bi bi-whatsapp"> </i>SOLICITAR ASESORÍA
-        </button>
+        </a>
       </div>
       {/* METODO */}
       <div className="">
@@ -115,7 +115,7 @@ const Home = () => {
           <div className="row align-items-center ">
             <div className="col-md-6 text-center">
               <img
-                src="/src/assets/_MG_9566.jpg"
+                src={CardImage1}
                 alt=""
                 height={540}
                 className="rounded mb-5"
@@ -137,7 +137,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div className="col-md-6 text-center order-md-2">
               <img
-                src="/src/assets/_MG_9297.jpg"
+                src={CardImage2}
                 alt=""
                 height={540}
                 className="rounded my-5"
@@ -159,7 +159,7 @@ const Home = () => {
             <hr />
             <div className="col-md-6 text-center">
               <img
-                src="/src/assets/_MG_9493.jpg"
+                src={CardImage3}
                 alt=""
                 height={540}
                 className="rounded my-5"
@@ -187,14 +187,14 @@ const Home = () => {
         </div>
         {/* BOTON DE CONTACTO */}
         <div className="container text-center ">
-          <button
+          <a
             href="https://wa.me/5493816755376"
             target="_blank"
             type="button"
             className="btn text-light btn-lg contact-btn"
           >
             <i className="bi bi-whatsapp"> </i>CONTACTAME AHORA
-          </button>
+          </a>
         </div>
       </div>
       

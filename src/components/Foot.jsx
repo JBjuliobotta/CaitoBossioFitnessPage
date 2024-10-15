@@ -25,7 +25,7 @@ const Foot = () => {
         </div>
 
         <div className="col-12 col-md-3 mb-3 mb-md-0">
-          <h4 className="text-center">Contactoz</h4>
+          <h4 className="text-center">Contacto</h4>
           <ul className="list-unstyled d-flex justify-content-center">
             <li className="me-3 mx-2">
               <Link
