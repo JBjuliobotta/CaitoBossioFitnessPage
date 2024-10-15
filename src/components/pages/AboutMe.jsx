@@ -7,11 +7,10 @@ import BackgroundAbout3 from "/src/assets/_MG_9613.jpg";
 const AboutMe = () => {
   return (
     <>
+      <div className="bg-black bg-gradient pt-5 text-center">
+        <h1 className="my-5">CONOCE A TU ENTRENADOR</h1>
+      </div>
       <div className="container">
-        <div className="container">
-          <div className="custom-hr text-center my-5"></div>
-        </div>
-        <h1 className="my-5">CONOCÉ A TU ENTRENADOR</h1>
         <div
           className="aboutme-bg"
           style={{ backgroundImage: `url(${BackgroundAbout1})` }}
@@ -53,19 +52,6 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="text-center mt-5 mb-4 pt-5 bg-black bg-gradient">
-        <h2>EMPEZÁ TU TRANSFORMACIÓN AHORA:</h2>
-      </div>
-      <div className="container text-center">
-        <a
-          href="https://wa.me/5493816755376"
-          target="_blank"
-          type="button"
-          className="btn text-light btn-lg contact-btn"
-        >
-          <i className="bi bi-whatsapp"> </i>QUIERO UNIRME
-        </a>
-      </div>
       <div className="container">
         <div className="custom-hr text-center my-5"></div>
       </div>
@@ -90,6 +76,20 @@ const AboutMe = () => {
       <div className="container">
         <div className="custom-hr text-center my-5"></div>
       </div>
+      <div className="text-center mb-4">
+        <h2>EMPEZÁ TU TRANSFORMACIÓN AHORA:</h2>
+      </div>
+      <div className="container text-center mb-5">
+        <a
+          href="https://wa.me/5493816755376"
+          target="_blank"
+          type="button"
+          className="btn text-light btn-lg contact-btn"
+        >
+          <i className="bi bi-whatsapp"> </i>QUIERO UNIRME
+        </a>
+      </div>
+      
     </>
   );
 };

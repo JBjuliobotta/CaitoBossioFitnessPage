@@ -17,7 +17,7 @@ const Asesories = () => {
 
   return (
     <>
-      <div className="container text-center mb-5">
+      <div className=" text-center mb-5 pt-5 bg-black bg-gradient">
         <h1>ASESORÍAS PERSONALIZADAS</h1>
       </div>
 

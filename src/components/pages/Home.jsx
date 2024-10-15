@@ -25,7 +25,7 @@ const Home = () => {
         <iframe
           width="960"
           height="540"
-          src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/vJyyvW-7chQ?autoplay=1&mute=1"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
           className="rounded"
@@ -43,7 +43,7 @@ const Home = () => {
       </div>
       <div className="">
         <div className="text-center bg-black bg-gradient pt-5">
-          <h1 className="">
+          <h1 className="mb-4">
             CONOCE EL MÉTODO{" "}
             <b style={{ color: "#94c120" }}>&quot;FITNESS DEVELOP&quot;</b>
           </h1>
@@ -90,7 +90,9 @@ const Home = () => {
                 objetivos y disponibilidad.
               </h4>
             </div>
-            <hr />
+            <div className="container">
+              <div className="custom-hr text-center my-5"></div>
+            </div>
           </div>
           <div className="row align-items-center">
             <div className="col-md-6 text-center order-md-2">
@@ -113,7 +115,9 @@ const Home = () => {
             </div>
           </div>
           <div className="row align-items-center ">
-            <hr />
+            <div className="container">
+              <div className="custom-hr text-center my-5"></div>
+            </div>
             <div className="col-md-6 text-center">
               <img
                 src={CardImage3}
@@ -135,7 +139,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" py-5">
+      <div className="container">
+              <div className="custom-hr text-center"></div>
+            </div>
+      <div className="pb-5">
         <div className="text-center">
           <h2 className="mt-5">ASESORATE HOY MISMO:</h2>
           <h6 className="mb-3" style={{ color: "rgb(160, 160, 160)" }}>
