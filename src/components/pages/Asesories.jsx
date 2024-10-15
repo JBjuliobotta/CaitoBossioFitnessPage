@@ -94,11 +94,19 @@ const Asesories = () => {
         </div>
 
         <div className="form-title">
-          <h2>
+          <h2 className="mx-3">
             ¿Querés una{" "}
             <b style={{ color: "#94c120" }}>asesoría personalizada</b>?{" "}
           </h2>
-          <h2>Envíame tus datos y voy a responder los antes posible!</h2>
+          <div className="container text-center my-5">
+            <img
+              src="/src/assets/_MG_9509.jpg"
+              alt=""
+              height={540}
+              className="rounded"
+            />
+          </div>
+          <h2>Envíame tus datos y voy a responder lo antes posible!</h2>
         </div>
         <div className="form-container">
           <form

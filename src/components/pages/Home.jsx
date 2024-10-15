@@ -2,6 +2,7 @@
 import "../css/home.css";
 import AboutMe from "./AboutMe";
 import Asesories from "./Asesories";
+import ContactMe from "./ContactMe"
 // import Accordion from "react-bootstrap/Accordion";
 // import CardImage1 from "/src/assets/_MG_9566.jpg";
 // import CardImage2 from "/src/assets/_MG_9297.jpg";
@@ -177,7 +178,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-black bg-gradient py-5">
+      <div className=" py-5">
         <div className="text-center">
           <h2 className="mt-5">ASESORATE HOY MISMO:</h2>
           <h6 className="mb-3" style={{ color: "rgb(160, 160, 160)" }}>

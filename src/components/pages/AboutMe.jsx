@@ -53,7 +53,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="container mt-5 mb-4">
+      <div className="text-center mt-5 mb-4 pt-5 bg-black bg-gradient">
         <h2>EMPEZÁ TU TRANSFORMACIÓN AHORA:</h2>
       </div>
       <div className="container text-center">
