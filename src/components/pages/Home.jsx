@@ -79,17 +79,14 @@ const Home = () => {
         </button>
       </div>
 
-      {/* <hr className="my-5" /> */}
-
       {/* METODO */}
-
       <div className="bg-black bg-gradient pt-5">
         <div className="text-center ">
           <h1 className="mb-3">
             CONOCE EL MÉTODO{" "}
             <b style={{ color: "#94c120" }}>"FITNESS DEVELOP"</b>
           </h1>
-          <div className="mb-5">
+          <div className="mb-5 mx-3">
             <br />
             <h3 className="mb-0 pb-0">
               Llamado de esta manera porque en él vas a explorar todo tu
@@ -101,26 +98,90 @@ const Home = () => {
             <h3 className="mb-0 pb-0">
               la misma que no te está permitiendo cumplir ese sueño, esa meta
               física.
-            </h3>
+            </h3>          
           </div>
         </div>
 
-        <div className="row align-items-center ">
-          <div className="col-md-6 text-center">
-            <img src="/src/assets/_MG_9566.jpg" alt="" height={540} className="rounded"/>
+        <div className="container">
+          {/* 1. */}
+          <div className="row align-items-center ">
+            <div className="col-md-6 text-center">
+              <img
+                src="/src/assets/_MG_9566.jpg"
+                alt=""
+                height={540}
+                className="rounded mb-5"
+              />
+            </div>
+            <div className="col-md-6">
+              <h1 className="px-5" style={{ color: "#94c120" }}>
+                1. ANÁLISIS
+              </h1>
+              <h3 className="px-5">
+                Cada persona es diferente, por eso cada entrenamiento va a tener
+                estímulos diferentes de acuerdo a tu nivel de experiencia,
+                objetivos y disponibilidad.
+              </h3>
+            </div>
           </div>
-          <div className="col-md-6">
-            <h1 className="px-5" style={{ color: "#94c120" }}>
-              1. ANÁLISIS
-            </h1>
-            <h3 className="px-5">
-              Cada persona es diferente, por eso cada entrenamiento va a tener
-              estímulos diferentes de acuerdo a tu nivel de experiencia,
-              objetivos y disponibilidad.
-            </h3>
+          {/* 2 */}
+          <div className="row align-items-center">
+            <div className="col-md-6 text-center order-md-2">
+              <img
+                src="/src/assets/_MG_9297.jpg"
+                alt=""
+                height={540}
+                className="rounded mb-5"
+              />
+            </div>
+            <div className="col-md-6 order-md-1">
+              <h1 className="px-5" style={{ color: "#94c120" }}>
+                2. EJECUCIÓN
+              </h1>
+              <h3 className="px-5">
+                Una vez tengamos definida tu idea, conozcamos tu punto de
+                partida ahí empezamos a darle forma a tu visión, creamos tu plan
+                y lo ponemos en marcha.
+              </h3>
+            </div>
+          </div>
+          {/* 3 */}
+          <div className="row align-items-center ">
+            <div className="col-md-6 text-center">
+              <img
+                src="/src/assets/_MG_9566.jpg"
+                alt=""
+                height={540}
+                className="rounded mb-5"
+              />
+            </div>
+            <div className="col-md-6">
+              <h1 className="px-5" style={{ color: "#94c120" }}>
+                3. AJUSTE
+              </h1>
+              <h3 className="px-5">
+                Realizamos chequeos para ver como te va con el plan y lo
+                ajustamos aún más a tus requerimientos, siempre trabajando con
+                objetivos semanales y diarios
+              </h3>
+            </div>
           </div>
         </div>
       </div>
+
+      <hr />
+      {/* BOTON DE CONTACTO */}
+      <div className="container text-center my-5">
+        <button
+          href="https://wa.me/5493816755376"
+          target="_blank"
+          type="button"
+          className="btn btn-primary btn-lg contact-btn"
+        >
+          <i className="bi bi-whatsapp"> </i>CONTACTAME AHORA
+        </button>
+      </div>
+      <hr />
 
       {/* CARDS */}
       <div className="description-phrase">
