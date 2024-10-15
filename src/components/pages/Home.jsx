@@ -2,7 +2,7 @@
 import "../css/home.css";
 import AboutMe from "./AboutMe";
 import Asesories from "./Asesories";
-import ContactMe from "./ContactMe"
+// import ContactMe from "./ContactMe"
 // import Accordion from "react-bootstrap/Accordion";
 // import CardImage1 from "/src/assets/_MG_9566.jpg";
 // import CardImage2 from "/src/assets/_MG_9297.jpg";
@@ -63,20 +63,20 @@ const Home = () => {
           height="540"
           src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          // allowfullscreen
+          allowfullscreen
           className="rounded"
         ></iframe>
       </div>
       {/* BOTON DE CONTACTO */}
       <div className="container text-center mb-5">
-        <button
+        <a
           href="https://wa.me/5493816755376"
           target="_blank"
           type="button"
           className="btn text-light btn-lg contact-btn"
         >
           <i className="bi bi-whatsapp"> </i>SOLICITAR ASESORÍA
-        </button>
+        </a>
       </div>
       {/* METODO */}
       <div className="">
@@ -187,14 +187,14 @@ const Home = () => {
         </div>
         {/* BOTON DE CONTACTO */}
         <div className="container text-center ">
-          <button
+          <a
             href="https://wa.me/5493816755376"
             target="_blank"
             type="button"
             className="btn text-light btn-lg contact-btn"
           >
             <i className="bi bi-whatsapp"> </i>CONTACTAME AHORA
-          </button>
+          </a>
         </div>
       </div>
       
