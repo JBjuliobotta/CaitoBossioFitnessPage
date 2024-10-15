@@ -1,5 +1,7 @@
 // import React from "react";
 import "../css/home.css";
+import AboutMe from "./AboutMe";
+
 // import Accordion from "react-bootstrap/Accordion";
 // import CardImage1 from "/src/assets/_MG_9566.jpg";
 // import CardImage2 from "/src/assets/_MG_9297.jpg";
@@ -30,7 +32,6 @@ const Home = () => {
           eliminar ningún tipo de alimento de tu dieta)
         </h6>
       </div>
-
       {/* CAROUSEL */}
       {/* <div className="sport-photos">
         <div className="sport-photos-slider">
@@ -54,7 +55,6 @@ const Home = () => {
           <img src={Ciclyst} alt="Ciclyst" />
         </div>
       </div> */}
-
       {/* VIDEO VSL */}
       <div className="container text-center my-5">
         <iframe
@@ -66,7 +66,6 @@ const Home = () => {
           className="rounded"
         ></iframe>
       </div>
-
       {/* BOTON DE CONTACTO */}
       <div className="container text-center mb-5">
         <button
@@ -75,10 +74,9 @@ const Home = () => {
           type="button"
           className="btn btn-primary btn-lg contact-btn"
         >
-          <i className="bi bi-whatsapp"> </i>CONTACTAME AHORA
+          <i className="bi bi-whatsapp"> </i>SOLICITAR ASESORÍA
         </button>
       </div>
-
       {/* METODO */}
       <div className="">
         <div className="text-center bg-black bg-gradient pt-5">
@@ -187,7 +185,7 @@ const Home = () => {
           </h6>
         </div>
         {/* BOTON DE CONTACTO */}
-        <div className="container text-center mb-5">
+        <div className="container text-center ">
           <button
             href="https://wa.me/5493816755376"
             target="_blank"
@@ -198,8 +196,10 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <hr />
-
+      
+      <div className="">
+        <AboutMe />
+      </div>
       {/* CARDS */}
       {/* <div className="description-phrase">
         <p>La actividad física es un pilar fundamental de la vida.</p>
@@ -255,7 +255,6 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-
       {/* Boton de Whatsapp Fijo*/}
       <a
         href="https://wa.me/5493816755376"
