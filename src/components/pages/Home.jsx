@@ -1,9 +1,9 @@
 // import React from "react";
 import "../css/home.css";
 // import Accordion from "react-bootstrap/Accordion";
-import CardImage1 from "/src/assets/_MG_9566.jpg";
-import CardImage2 from "/src/assets/_MG_9297.jpg";
-import CardImage3 from "/src/assets/_MG_9493.jpg";
+// import CardImage1 from "/src/assets/_MG_9566.jpg";
+// import CardImage2 from "/src/assets/_MG_9297.jpg";
+// import CardImage3 from "/src/assets/_MG_9493.jpg";
 // import BJJ from "/src/assets/Bjjphoto.jpg";
 // import Bodybuilding from "/src/assets/bodybuildingphoto.jpg";
 // import Boxing from "/src/assets/boxingphoto.jpg";
@@ -63,7 +63,7 @@ const Home = () => {
           src="https://www.youtube.com/embed/EAv3ivfQCcw?autoplay=1&mute=1"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          className="rounded border border-light"
+          className="rounded"
         ></iframe>
       </div>
 
@@ -84,7 +84,7 @@ const Home = () => {
         <div className="text-center bg-black bg-gradient pt-5">
           <h1 className="">
             CONOCE EL MÉTODO{" "}
-            <b style={{ color: "#94c120" }}>"FITNESS DEVELOP"</b>
+            <b style={{ color: "#94c120" }}>&quot;FITNESS DEVELOP&quot;</b>
           </h1>
           {/* SEPARADOR */}
           <div className="container">
@@ -108,6 +108,9 @@ const Home = () => {
         <div className="container">
           <div className="custom-hr text-center my-5"></div>
         </div>
+        <div className="text-center mb-5">
+          <h2>Constituido por 3 bloques:</h2>
+        </div>
         <div className="container">
           {/* 1. */}
           <div className="row align-items-center ">
@@ -116,11 +119,11 @@ const Home = () => {
                 src="/src/assets/_MG_9566.jpg"
                 alt=""
                 height={540}
-                className="rounded mb-5 border border-light"
+                className="rounded mb-5"
               />
             </div>
-            <div className="col-md-6">
-              <h2 className="px-5" style={{ color: "#94c120" }}>
+            <div className="col-md-6 bg-black bg-gradient rounded">
+              <h2 className="px-5 py-3" style={{ color: "#94c120" }}>
                 1. ANÁLISIS
               </h2>
               <h4 className="px-5">
@@ -138,11 +141,11 @@ const Home = () => {
                 src="/src/assets/_MG_9297.jpg"
                 alt=""
                 height={540}
-                className="rounded my-5 border border-light"
+                className="rounded my-5"
               />
             </div>
-            <div className="col-md-6 order-md-1">
-              <h2 className="px-5" style={{ color: "#94c120" }}>
+            <div className="col-md-6 order-md-1 bg-black bg-gradient rounded">
+              <h2 className="px-5 py-3" style={{ color: "#94c120" }}>
                 2. EJECUCIÓN
               </h2>
               <h4 className="px-5">
@@ -160,11 +163,11 @@ const Home = () => {
                 src="/src/assets/_MG_9493.jpg"
                 alt=""
                 height={540}
-                className="rounded my-5 border border-light"
+                className="rounded my-5"
               />
             </div>
-            <div className="col-md-6">
-              <h2 className="px-5" style={{ color: "#94c120" }}>
+            <div className="col-md-6 bg-black bg-gradient rounded">
+              <h2 className="px-5 py-3" style={{ color: "#94c120" }}>
                 3. AJUSTE
               </h2>
               <h4 className="px-5">
@@ -176,20 +179,24 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <hr />
-      {/* BOTON DE CONTACTO */}
-      <div className="text-center">
-        <h1 className="mt-5">EMPEZÁ AHORA MISMO:</h1>
-      </div>
-      <div className="container text-center my-5">
-        <button
-          href="https://wa.me/5493816755376"
-          target="_blank"
-          type="button"
-          className="btn btn-primary btn-lg contact-btn"
-        >
-          <i className="bi bi-whatsapp"> </i>CONTACTAME AHORA
-        </button>
+      <div className="bg-black bg-gradient py-5">
+        <div className="text-center">
+          <h2 className="mt-5">ASESORATE HOY MISMO:</h2>
+          <h6 className="mb-3" style={{ color: "rgb(160, 160, 160)" }}>
+            (Tu consulta es 100% gratuita)
+          </h6>
+        </div>
+        {/* BOTON DE CONTACTO */}
+        <div className="container text-center mb-5">
+          <button
+            href="https://wa.me/5493816755376"
+            target="_blank"
+            type="button"
+            className="btn btn-primary btn-lg contact-btn"
+          >
+            <i className="bi bi-whatsapp"> </i>CONTACTAME AHORA
+          </button>
+        </div>
       </div>
       <hr />
 
@@ -249,7 +256,7 @@ const Home = () => {
         </div>
       </div> */}
 
-      {/* Boton de Whatsapp */}
+      {/* Boton de Whatsapp Fijo*/}
       <a
         href="https://wa.me/5493816755376"
         target="_blank"
