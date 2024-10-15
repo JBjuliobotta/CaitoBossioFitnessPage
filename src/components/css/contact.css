@@ -3,7 +3,7 @@
   height: 90vh;
   display: flex;
   flex-wrap: wrap;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   margin-top: 100px;
   margin-bottom: 35px;
   margin-left: 40px;
@@ -34,14 +34,14 @@
 
 .contact-container .leftSide h1 {
   align-self: center;
-  font-family: "PT Sans Narrow", sans-serif;
+      font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 .contact-container .leftSide h4 {
   align-self: center;
-  font-family: "PT Sans Narrow", sans-serif;
+      font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -88,14 +88,14 @@
 
   .contact-container .leftSide h1 {
     align-self: center;
-    font-family: "PT Sans Narrow", sans-serif;
+        font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
 
   .contact-container .leftSide h4 {
     align-self: center;
-    font-family: "PT Sans Narrow", sans-serif;
+        font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
@@ -143,7 +143,7 @@
 
   .contact-container .leftSide h1 {
     align-self: center;
-    font-family: "PT Sans Narrow", sans-serif;
+        font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
@@ -151,7 +151,7 @@
   .contact-container .leftSide h4 {
     align-self: center;
     font-size: 15px;
-    font-family: "PT Sans Narrow", sans-serif;
+        font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
@@ -192,7 +192,7 @@
   }
   .contact-container .leftSide h1 {
     align-self: center;
-    font-family: "PT Sans Narrow", sans-serif;
+        font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
@@ -200,7 +200,7 @@
   .contact-container .leftSide h4 {
     align-self: center;
     font-size: 18px;
-    font-family: "PT Sans Narrow", sans-serif;
+        font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
   }

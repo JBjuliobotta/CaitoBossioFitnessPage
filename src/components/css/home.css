@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif !important;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -13,7 +17,7 @@
   margin-left: 16px;
   text-transform: uppercase;
   color: transparent;
-  font-family: "Rowdies", sans-serif;
+   font-family: "Oswald", Helvetica, sans-serif !important;
   font-weight: 700;
   font-style: normal;
   font-size: 50px !important;
@@ -31,7 +35,7 @@
   flex-wrap: wrap;
   font-weight: bold;
   font-size: 25px;
-  font-family: "PT Sans Narrow", sans-serif;
+      font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -163,7 +167,7 @@
 .card-title {
   text-transform: uppercase;
   font-size: 50px;
-  font-family: "Rowdies", sans-serif;
+   font-family: "Oswald", Helvetica, sans-serif !important;
   font-style: normal;
   font-weight: 500;
   color: #fff !important;
@@ -175,7 +179,7 @@
   margin: 40px 0;
   font-weight: 400;
   color: #fff;
-  font-family: "PT Sans Narrow", sans-serif;
+      font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -271,7 +275,7 @@
   .card-title {
     text-transform: uppercase;
     font-size: 25px;
-    font-family: "Rowdies", sans-serif;
+     font-family: "Oswald", Helvetica, sans-serif !important;
     font-style: normal;
     font-weight: 500;
     color: #fff !important;
@@ -283,7 +287,7 @@
     margin: 40px 0;
     font-weight: 400;
     color: #fff;
-    font-family: "PT Sans Narrow", sans-serif;
+        font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
@@ -291,4 +295,52 @@
     .logos-slider img {
         height: 100px;
     }
+}
+
+/* Boton de Whatsapp */
+body {
+  height: 1500px; /* Solo para simular una página larga */
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366!important;
+  color: white!important;
+  font-size: 1.92rem!important;
+  padding: 10px 20px;
+  border-radius: 100%!important;
+  text-decoration: none;
+  z-index: 1000 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 65px;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128c7e!important;
+}
+
+.contact-btn{
+  background-color: #94c120 !important;
+  font-family: "Oswald", Helvetica, sans-serif !important;;   
+}
+
+.contact-btn:hover {
+  background-color: #b3e252 !important;
+}
+
+.img-method {
+  border-radius: 25%;
+}
+
+.custom-hr {
+  width: 50%;         
+  height: 2px;          
+  background-color: #ccc; 
+  border: none;         
+  margin: 20px 0;    
 }
