@@ -99,6 +99,7 @@ const Asesories = () => {
               alt=""
               height={540}
               className="rounded"
+              style={{objectFit: "cover", maxWidth: "100%"}}
             />
           </div>
           <h2>Envíame tus datos y voy a responder lo antes posible!</h2>

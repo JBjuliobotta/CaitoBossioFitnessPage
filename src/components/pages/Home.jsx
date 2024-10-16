@@ -47,9 +47,6 @@ const Home = () => {
             CONOCE EL MÉTODO{" "}
             <b style={{ color: "#94c120" }}>&quot;FITNESS DEVELOP&quot;</b>
           </h1>
-          <div className="container">
-            <div className="custom-hr text-center my-5"></div>
-          </div>
           <div className="mx-3">
             <h4 style={{ color: "rgb(160, 160, 160)" }} className="mb-0 pb-0">
               Llamado de esta manera porque en él vas a explorar todo tu
@@ -71,12 +68,14 @@ const Home = () => {
           <h2>Constituido por 3 bloques:</h2>
         </div>
         <div className="container">
-          <div className="row align-items-center ">
+          <div className="container">
+            <div className="row align-items-center "></div>
             <div className="col-md-6 text-center">
               <img
                 src={CardImage1}
                 alt=""
                 height={540}
+                style={{objectFit: "cover", maxWidth: "100%"}}
                 className="rounded mb-5"
               />
             </div>
@@ -94,12 +93,14 @@ const Home = () => {
               <div className="custom-hr text-center my-5"></div>
             </div>
           </div>
-          <div className="row align-items-center">
+          <div className="container">
+            <div className="row align-items-center"></div>
             <div className="col-md-6 text-center order-md-2">
               <img
                 src={CardImage2}
                 alt=""
                 height={540}
+                style={{objectFit: "cover", maxWidth: "100%"}}
                 className="rounded my-5"
               />
             </div>
@@ -114,17 +115,22 @@ const Home = () => {
               </h4>
             </div>
           </div>
-          <div className="row align-items-center ">
+          <div className="container">
+            <div className="row align-items-center "></div>
             <div className="container">
               <div className="custom-hr text-center my-5"></div>
             </div>
             <div className="col-md-6 text-center">
-              <img
+             <div className="container">
+             <img
                 src={CardImage3}
                 alt=""
                 height={540}
+                width={360}
+                style={{objectFit: "cover", maxWidth: "100%"}}
                 className="rounded my-5"
               />
+             </div>
             </div>
             <div className="col-md-6 bg-black bg-gradient rounded">
               <h2 className="px-5 py-3" style={{ color: "#94c120" }}>
@@ -140,8 +146,8 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-              <div className="custom-hr text-center"></div>
-            </div>
+        <div className="custom-hr text-center"></div>
+      </div>
       <div className="pb-5">
         <div className="text-center">
           <h2 className="mt-5">ASESORATE HOY MISMO:</h2>
