@@ -67,7 +67,6 @@ const Home = () => {
         <div className="text-center mb-5">
           <h2>Constituido por 3 bloques:</h2>
         </div>
-
         <div className="container">
           <div className="container">
             <div className="row align-items-center "></div>
