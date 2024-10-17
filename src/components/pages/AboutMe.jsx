@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <>
       <div className="bg-black bg-gradient pt-5 text-center">
-        <h1 className="my-5">CONOCE A TU ENTRENADOR</h1>
+        <h1 className="my-5">ACERCA DE MÍ</h1>
       </div>
       <div className="container">
         <div
@@ -17,14 +17,16 @@ const AboutMe = () => {
         >
           <div className="description-container">
             <h2>Soy Carlos Adolfo Bosio</h2>
-            <p className=" ">- Profesor de Educación física</p>
-            <p className=" ">- Atleta multidisciplinario</p>
+            <p className=" ">- Profesor en Educación física</p>
             <p className=" ">
-              - Especialista en entrenamiento de fuerza y potencia
+              - Especialista en Entrenamiento de Fuerza y Potencia
             </p>
             <p className=" ">- Musculación e Hipertrofia</p>
+            <p className=" ">- Funcional Trainning</p>
             <p className=" ">- Rehabilitación</p>
-            <p className=" ">- Alimentación Deportiva</p>
+            <p className=" ">- Alimentación y Suplementación Deportiva</p>
+            <p>- Atleta Multidisciplinar</p>
+            <p>- Coach Deportivo</p>
           </div>
         </div>
         <div
