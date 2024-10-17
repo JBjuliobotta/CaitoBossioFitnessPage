@@ -17,11 +17,9 @@ const Asesories = () => {
 
   return (
     <>
-      <div className=" text-center mb-5 pt-5 bg-black bg-gradient">
+      <div className=" text-center mb-5 pt-5 bg-black bg-gradient" id="asesorias">
         <h1>ASESORÍAS PERSONALIZADAS</h1>
       </div>
-
-      {/* CAROUSEL */}
       <div className="container-main">
         <div className="carousel">
           <div
@@ -88,7 +86,7 @@ const Asesories = () => {
             <div className="custom-hr text-center my-5"></div>
           </div>
         </div>
-        <div className="form-title">
+        <div className="form-title" id="contact">
           <h2 className="mx-3">
             ¿Querés una{" "}
             <b style={{ color: "#94c120" }}>asesoría personalizada</b>?{" "}
