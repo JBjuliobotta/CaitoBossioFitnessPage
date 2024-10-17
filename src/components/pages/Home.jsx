@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div className="container text-center mt-5 pt-5">
         <h6 className="pb-3" style={{ color: "rgb(160, 160, 160)" }}>
-          <b style={{ color: "#94c120" }}>Caito Bosio</b> | Personal Trainer
+          <b style={{ color: "#94c120" }}>Caito Bosio</b> | Entrenador Coach
         </h6>
         <h1>
           Logro que profesionales +30 años obtengan un cuerpo atlético
@@ -49,15 +49,13 @@ const Home = () => {
           </h1>
           <div className="mx-3">
             <h4 style={{ color: "rgb(160, 160, 160)" }} className="mb-0 pb-0">
-              Llamado de esta manera porque en él vas a explorar todo tu
-              potencial fitness,{" "}
+            En el vas a explorar todo tu potencial fitness,{" "}
             </h4>
             <h4 style={{ color: "rgb(160, 160, 160)" }} className="mb-0 pb-0">
-              el desarrollo integro de tu aptitud ante tal situación,
+            lograremos un desarrollo íntegro de tus capacidades,
             </h4>
             <h4 style={{ color: "rgb(160, 160, 160)" }} className="mb-0 pb-0">
-              la misma que no te está permitiendo cumplir ese sueño, esa meta
-              física.
+            lo que nos dará una mentalidad fuerte para concretar esas metas físicas que tanto buscas.
             </h4>
           </div>
         </div>
@@ -76,7 +74,7 @@ const Home = () => {
                 alt=""
                 height={540}
                 style={{objectFit: "cover", maxWidth: "100%"}}
-                className="rounded mb-5"
+                className="rounded mx-1 mb-5"
               />
             </div>
             <div className="col-md-6 bg-black bg-gradient rounded">
@@ -101,7 +99,7 @@ const Home = () => {
                 alt=""
                 height={540}
                 style={{objectFit: "cover", maxWidth: "100%"}}
-                className="rounded my-5"
+                className="rounded mx-1 my-5"
               />
             </div>
             <div className="col-md-6 order-md-1 bg-black bg-gradient rounded">
