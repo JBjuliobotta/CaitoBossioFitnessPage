@@ -7,7 +7,7 @@ import BackgroundAbout3 from "/src/assets/_MG_9613.jpg";
 const AboutMe = () => {
   return (
     <>
-      <div className="bg-black bg-gradient pt-5 text-center">
+      <div className="bg-black bg-gradient pt-5 text-center" id="about">
         <h1 className="my-5">ACERCA DE MÍ</h1>
       </div>
       <div className="container">

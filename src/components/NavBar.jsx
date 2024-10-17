@@ -21,10 +21,11 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-4 fw-bold">
-              <NavLink to="/" className={"nav-link"}>Inicio</NavLink>
-              <NavLink to="/" className={"nav-link"}>Quién Soy</NavLink>
-              <NavLink to="/" className={"nav-link"}>Asesorías</NavLink>
-              <NavLink to="/" className={"nav-link"}>Contacto</NavLink>
+              <a href="#index" className={"nav-link"}>Inicio</a>
+              <a href="#method" className={"nav-link"}>Método</a>
+              <a href="#about" className={"nav-link"}>Quién Soy</a>
+              <a href="#asesorias" className={"nav-link"}>Asesorías</a>
+              <a href="#contact" className={"nav-link"}>Contacto</a>
             </Nav>
           </Navbar.Collapse>
         </Container>

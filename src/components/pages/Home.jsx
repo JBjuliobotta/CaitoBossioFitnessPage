@@ -8,7 +8,7 @@ import CardImage3 from "/src/assets/_MG_9493.jpg";
 const Home = () => {
   return (
     <>
-      <div className="container text-center mt-5 pt-5">
+      <div className="container text-center mt-5 pt-5" id="index">
         <h6 className="pb-3" style={{ color: "rgb(160, 160, 160)" }}>
           <b style={{ color: "#94c120" }}>Caito Bosio</b> | Entrenador Coach
         </h6>
@@ -41,7 +41,7 @@ const Home = () => {
           <i className="bi bi-whatsapp"> </i>SOLICITAR ASESORÍA
         </a>
       </div>
-      <div className="">
+      <div id="method">
         <div className="text-center bg-black bg-gradient pt-5">
           <h1 className="mb-4">
             CONOCE EL MÉTODO{" "}
