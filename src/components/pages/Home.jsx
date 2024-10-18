@@ -33,12 +33,12 @@ const Home = () => {
       </div>
       <div className="container text-center mb-5">
         <a
-          href="https://wa.me/5493816755376"
+          href="https://calendly.com/coachcaitobosio/reunion"
           target="_blank"
           type="button"
           className="btn text-light btn-lg contact-btn"
         >
-          <i className="bi bi-whatsapp"> </i>SOLICITAR ASESORÍA
+          <i className="bi bi-calendar"> </i>AGENDAR LLAMADA
         </a>
       </div>
       <div id="method">
@@ -155,12 +155,12 @@ const Home = () => {
         </div>
         <div className="container text-center ">
           <a
-            href="https://wa.me/5493816755376"
+            href="https://calendly.com/coachcaitobosio/reunion"
             target="_blank"
             type="button"
             className="btn text-light btn-lg contact-btn"
           >
-            <i className="bi bi-whatsapp"> </i>CONTACTAME AHORA
+            <i className="bi bi-calendar"> </i>AGENDAR LLAMADA
           </a>
         </div>
       </div>

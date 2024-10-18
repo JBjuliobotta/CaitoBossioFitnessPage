@@ -83,12 +83,12 @@ const AboutMe = () => {
       </div>
       <div className="container text-center mb-5">
         <a
-          href="https://wa.me/5493816755376"
+          href="https://calendly.com/coachcaitobosio/reunion"
           target="_blank"
           type="button"
           className="btn text-light btn-lg contact-btn"
         >
-          <i className="bi bi-whatsapp"> </i>QUIERO UNIRME
+          <i className="bi bi-calendar"> </i>AGENDAR LLAMADA
         </a>
       </div>
       
