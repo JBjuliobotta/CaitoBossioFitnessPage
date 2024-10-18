@@ -70,7 +70,7 @@ const Foot = () => {
       <div className="row">
         <div className="col text-center">
           <p className="text-muted my-3 mb-0">
-            &copy; Todos los derechos reservados
+            &copy; Todos los derechos reservados - Ignacio Salas & Julio Rafael Botta
           </p>
         </div>
       </div>
